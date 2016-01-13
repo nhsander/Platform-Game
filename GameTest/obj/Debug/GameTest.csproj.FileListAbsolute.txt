@@ -1,0 +1,8 @@
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\bin\Debug\GameTest.dll
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\bin\Debug\GameTest.pdb
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\bin\Debug\OpenTK.dll
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\bin\Debug\OpenTK.pdb
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\bin\Debug\OpenTK.xml
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\obj\Debug\GameTest.dll
+c:\users\nathan\documents\visual studio 2015\Projects\GameTest\GameTest\obj\Debug\GameTest.pdb

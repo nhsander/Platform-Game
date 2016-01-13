@@ -1,0 +1,18 @@
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\bin\Debug\OpenTK.dll
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\bin\Debug\OpenTK.pdb
+c:\Users\Nathan\documents\visual studio 2015\Projects\GameTest\ConsoleApplication1\bin\Debug\OpenTK.xml
+C:\Users\Nathan\Documents\Visual Studio 2015\Projects\GameTest\ConsoleApplication1\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\OpenTK.dll
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\OpenTK.pdb
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\OpenTK.xml
+D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
