@@ -40,6 +40,8 @@ namespace ConsoleApplication1
 
         /// <summary>
         /// Returns a list of points to draw the character to the game window.
+        /// 
+        /// Exact render shape depends on player state
         /// </summary>
         /// <param name="width">Width of the window. Used to define relative window position</param>
         /// <param name="height">Height of the window. Used to define relative window position</param>
@@ -48,10 +50,42 @@ namespace ConsoleApplication1
         {
             List<Vector2d> vertices = new List<Vector2d>();
 
-            vertices.Add(new Vector2d( (position.X - charSize.X) / width, (position.Y + charSize.Y) / height));
-            vertices.Add(new Vector2d( (position.X + charSize.X) / width, (position.Y + charSize.Y) / height));
-            vertices.Add(new Vector2d( (position.X + charSize.X) / width, (position.Y - charSize.Y) / height));
-            vertices.Add(new Vector2d( (position.X - charSize.X) / width, (position.Y - charSize.Y) / height));
+            if (state[Constants.GRAB_STATE] == Constants.GRAB_RIGHT)
+            {
+                vertices.Add(new Vector2d((position.X - charSize.X * 6 / 10) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X * 3 / 4 ) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X) / width, (position.Y + charSize.Y * 11 / 10) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X) / width, (position.Y - charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X - charSize.X * 6 / 10) / width, (position.Y - charSize.Y) / height));
+            }
+            else if (state[Constants.GRAB_STATE] == Constants.GRAB_LEFT)
+            {
+                vertices.Add(new Vector2d((position.X - charSize.X) / width, (position.Y + charSize.Y * 11 / 10) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X * 6 / 10) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X * 6 / 10) / width, (position.Y - charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X - charSize.X) / width, (position.Y - charSize.Y * 10 / 10) / height));
+            }
+            else if (state[Constants.DASH_STATE] > 0)
+            {
+                vertices.Add(new Vector2d((position.X - charSize.X * 12 / 10) / width, (position.Y + charSize.Y * 8 / 10) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X * 12 / 10) / width, (position.Y + charSize.Y * 8 / 10) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X * 12 / 10) / width, (position.Y - charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X - charSize.X * 12 / 10) / width, (position.Y - charSize.Y) / height));
+            }
+            else if (state[Constants.AIR_STATE] == Constants.ON_GROUND)
+            {
+                vertices.Add(new Vector2d((position.X - charSize.X + velocity.X / 5) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X + velocity.X / 5) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X) / width, (position.Y - charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X - charSize.X) / width, (position.Y - charSize.Y) / height));
+            }
+            else
+            {
+                vertices.Add(new Vector2d((position.X - charSize.X) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X) / width, (position.Y + charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X + charSize.X) / width, (position.Y - charSize.Y) / height));
+                vertices.Add(new Vector2d((position.X - charSize.X) / width, (position.Y - charSize.Y) / height));
+            }
 
             return vertices;
         }

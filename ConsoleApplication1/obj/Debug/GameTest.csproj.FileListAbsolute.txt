@@ -16,3 +16,12 @@ D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\OpenT
 D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\OpenTK.pdb
 D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\bin\Debug\OpenTK.xml
 D:\Nathan\Programming\Visual Studio\GameTest\ConsoleApplication1\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\bin\Debug\OpenTK.dll
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\bin\Debug\OpenTK.pdb
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\bin\Debug\OpenTK.xml
+D:\Nathan\Programming\Visual Studio\PlatformGame\ConsoleApplication1\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
